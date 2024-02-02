@@ -3,7 +3,7 @@ import Navbar from "../Navbar/Navbar";
 
 const WIthNav = ({ children }) => {
     return (
-        <main>
+        <main className="bg-[#F6F7F9]">
             <Navbar />
             {children}
             <Footer />

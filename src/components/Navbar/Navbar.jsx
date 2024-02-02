@@ -10,7 +10,7 @@ const Navbar = () => {
     const [openSearch, setOpenSearch] = useState(false);
 
     return (
-        <div className="flex items-center justify-between max-w-screen-2xl px-5 md:px-10 py-7 shadow-sm relative">
+        <div className="flex items-center justify-between max-w-screen-2xl px-5 md:px-10 py-7 shadow-sm relative bg-white">
             <div className="flex items-center gap-10">
                 <Link href='/' className="uppercase text-blue-500 text-3xl font-medium">Morent</Link>
                 <div className="hidden md:inline-block">

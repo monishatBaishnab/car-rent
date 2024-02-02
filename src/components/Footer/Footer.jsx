@@ -34,7 +34,7 @@ const Footer = () => {
                     <LinkBox title={'Socials'} links={socialLinks} />
                 </div>
             </div>
-            <div className="flex items-center justify-between flex-wrap">
+            <div className="flex items-center justify-between flex-wrap border-t mt-5 pt-5">
                 <h6 className="text-[#1A202C] font-medium">©2022 MORENT. All rights reserved</h6>
                 <div className="space-x-4">
                     <Link className="text-[#1A202C] font-medium" href='/'>Privacy & Policy</Link>
